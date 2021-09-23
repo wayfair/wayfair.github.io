@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/pages/gw991k/wf-gh-io",
   siteMetadata: {
     title: `Wayfair Open Source`,
     description: `Home of the Open Source Program Office and Wayfair specific documenting for working with OSS`,
