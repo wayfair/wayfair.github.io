@@ -84,7 +84,7 @@ const Header = () => (
               }}
             />
           </a>
-          <a target="_" href="https://www.youtube.com/watch?v=hGlyFc79BUE">
+          <a target="_" href="https://www.youtube.com/channel/UCEvOJSbEEBkXw40FqHGPVRA">
             <StaticImage
               src="../images/IconYT.png"
               width={16}

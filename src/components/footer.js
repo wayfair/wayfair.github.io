@@ -32,7 +32,7 @@ const Footer = () => (
                 }}
               />
             </a>
-            <a target="_" href="https://www.youtube.com/watch?v=hGlyFc79BUE">
+            <a target="_" href="https://www.youtube.com/channel/UCEvOJSbEEBkXw40FqHGPVRA">
               <StaticImage
                 src="../images/IconYTFooter.png"
                 width={30}

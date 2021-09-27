@@ -12,7 +12,7 @@ const cards = [
     title: "Open Source Platform",
     description:
       "The heart and foundation of our open source offerings. For Wayfair and beyond.",
-    href: "/",
+    href: "/docs/ospo-platform/",
     linkText: "Take a look",
     imageSrc: PlatformImage,
     alt: "Open Source Platform Background Image",
@@ -21,7 +21,7 @@ const cards = [
     title: "Developer Advocacy",
     description:
       "Serving the community through our catalogue of open source projects.",
-    href: "/",
+    href: "/docs/ospo-advocacy/",
     linkText: "Watch and Learn",
     imageSrc: DevAdvocateImage,
     alt: "Developer Advocacy Background Image",
@@ -30,7 +30,7 @@ const cards = [
     title: "Auxiliary Engineering",
     description:
       "Driving continuous learning and cultural change through open source.",
-    href: "/",
+    href: "/docs/ospo-aux-eng/",
     linkText: "Find out more",
     imageSrc: AuxEngImage,
     alt: "Open Source Platform Background Image",
