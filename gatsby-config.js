@@ -6,6 +6,15 @@ module.exports = {
     siteUrl: `http://wayfair.github.io`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://wayfair.github.io',
+        sitemap: 'https://wayfair.github.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
