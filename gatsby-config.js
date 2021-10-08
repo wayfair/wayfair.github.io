@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://wayfair.github.io',
-        sitemap: 'https://wayfair.github.io/sitemap.xml',
+        sitemap: 'https://wayfair.github.io/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
