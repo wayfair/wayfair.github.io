@@ -20,7 +20,7 @@ Make a habit of familiarizing yourself with any code of conduct in projects you 
 
 Ensure that whatever code of conduct you adopt, even if it is a popular one, is applied where you expect, applies to whom you would expect, and what enforcement guidelines are in place for conduct breakers. Clearly state how you intend to ingest violations, and do so in a way that minimizes any expectation that others may read those violation reports when possible.
 
-Some good examples in the wild are the [Contributor Covenant](https://contributor-covenant.org/), the [Djanngo Code of Conduct](https://www.djangoproject.com/conduct/), and the [Citizen Code of Conduct](https://web.archive.org/web/20200330154000/http://citizencodeofconduct.org/). Place whichever you choose into the project's root directory, and link to it frequently from your CONTRIBUTING and README files.
+Some good examples in the wild are the [Contributor Covenant](https://contributor-covenant.org/), the [Django Code of Conduct](https://www.djangoproject.com/conduct/), and the [Citizen Code of Conduct](https://web.archive.org/web/20200330154000/http://citizencodeofconduct.org/). Place whichever you choose into the project's root directory, and link to it frequently from your CONTRIBUTING and README files.
 
 ## Enforcing a Code of Conduct
 
