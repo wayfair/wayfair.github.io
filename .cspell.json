@@ -3,7 +3,7 @@
     "language": "en",
     "dictionaries": ["Software", "Wayfair"],
     "dictionaryDefinitions": [
-        { "name": "Software", "path": "./words/software.txt"},
-        { "name": "Wayfair", "path": "./words/wayfair.txt"}
+        { "name": "Software", "path": "./words/software.txt" },
+        { "name": "Wayfair", "path": "./words/wayfair.txt" }
     ]
 }
