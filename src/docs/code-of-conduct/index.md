@@ -2,7 +2,7 @@
 title: "Code of Conduct"
 ---
 
-When maintaining a project, contributing to a project, or interacting with an open source community, you should be familiar with codes of conduct (CoC). Choosing a code of conduct for your project could be straightforward, since there are many [great examples that are continously improved](https://www.contributor-covenant.org/). Enforcing this code and understanding why you need it may be a little more difficult.
+When maintaining a project, contributing to a project, or interacting with an open source community, you should be familiar with codes of conduct (CoC). Choosing a code of conduct for your project could be straightforward, since there are many [great examples that are continuously improved](https://www.contributor-covenant.org/). Enforcing this code and understanding why you need it may be a little more difficult.
 
 In this doc we'll cover what any member of an open source community should consider in a CoC, and what Wayfairians should adhere to when participating in a project.
 
