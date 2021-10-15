@@ -1,11 +1,9 @@
 {
     "version": "0.2",
     "language": "en",
-    "words": [
-        "Kubernetes",
-        "OSPO",
-        "Wayfair",
-        "Wayfairian",
-        "Wayfairians"
+    "dictionaries": ["Software", "Wayfair"],
+    "dictionaryDefinitions": [
+        { "name": "Software", "path": "./words/software.txt"},
+        { "name": "Wayfair", "path": "./words/wayfair.txt"}
     ]
 }

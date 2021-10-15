@@ -1,5 +1,6 @@
 ---
 title: "Convince Your Boss"
+# cspell:words timeframe
 ---
 ## Talking About Open Source With Your Boss
 
@@ -18,7 +19,7 @@ Some of the world's most successful tech companies like [Netflix](https://netfli
 
 A notable example of a project that was made open source and escalated a company's notoriety in the development world is [Google's development of Android](https://source.android.com/). A project that has taken over nearly all mobile phones on the planet, started as an open source project from Google. While not every investment can live up to that standard; the point that open source can benefit from many contributions for both the company and the contributors stands tall from the example.
 
-I'm invigorated by our organizational commitment to open source as well. According to the competencies we use to evaluate performance, as well as some of our stated goals within teams, our technology staff should commit to open source when suitable opportunities and technologies present themselves. By committing to dedicated time working on open source, our team can stand out in the organization. I believe for the needs of our team, we should make regular time to contribute to {REPLACE_ME}. 
+I'm invigorated by our organizational commitment to open source as well. According to the competencies we use to evaluate performance, as well as some of our stated goals within teams, our technology staff should commit to open source when suitable opportunities and technologies present themselves. By committing to dedicated time working on open source, our team can stand out in the organization. I believe for the needs of our team, we should make regular time to contribute to {REPLACE_ME}.
 
 While I think contributing to {REPLACE_ME} has value to the company, and to our team recognition, this is also an opportunity for my own growth. Working in a community of new folks, following industry standard contributing guides and merging workflows out in the open, and contributing to something I care about; that makes me a more fulfilled professional. It gives me a better grounding for the work I need to do at Wayfair.
 
