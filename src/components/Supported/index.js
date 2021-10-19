@@ -52,7 +52,7 @@ const Supported = () => (
         </a>
       </Col>
       <Col lg="3" sm="6">
-        <a href="https://buildkite.com/">
+        <a href="https://github.com/buildkite">
           <StaticImage
             className="d-none d-md-inline-flex"
             src="../../images/supported/Buildkite.png"
