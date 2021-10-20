@@ -53,7 +53,7 @@ const Supported = () => (
         </OutboundLink>
       </Col>
       <Col lg="3" sm="6">
-        <OutboundLink href="https://buildkite.com/">
+        <OutboundLink href="https://github.com/buildkite">
           <StaticImage
             className="d-none d-md-inline-flex"
             src="../../images/supported/Buildkite.png"
