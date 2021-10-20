@@ -2,6 +2,7 @@ import * as React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Header = () => (
   <header>
@@ -25,42 +26,42 @@ const Header = () => (
             textAlign: "left",
           }}
         >
-          <a
+          <OutboundLink
             target="_"
             href="https://www.aboutwayfair.com/"
             className="plain-link"
           >
             About Us
-          </a>
+          </OutboundLink>
           &nbsp;&nbsp;&nbsp;
-          <a
+          <OutboundLink
             target="_"
             href="https://www.wayfair.com/careers/jobs"
             className="plain-link"
           >
             Careers
-          </a>
+          </OutboundLink>
         </Col>
         <Col>
           <span className="d-none d-lg-inline">
-            <a
+            <OutboundLink
               target="_"
               href="https://www.aboutwayfair.com/"
               className="plain-link"
             >
               About Us
-            </a>
+            </OutboundLink>
             &nbsp;&nbsp;&nbsp;
-            <a
+            <OutboundLink
               target="_"
               href="https://www.wayfair.com/careers/jobs"
               className="plain-link"
             >
               Careers
-            </a>
+            </OutboundLink>
             &nbsp;&nbsp;&nbsp;
           </span>
-          <a target="_" href="https://github.com/wayfair">
+          <OutboundLink target="_" href="https://github.com/wayfair">
             <StaticImage
               src="../images/IconGitHub.png"
               width={16}
@@ -71,8 +72,8 @@ const Header = () => (
                 margin: `8px`,
               }}
             />
-          </a>
-          <a target="_" href="https://twitter.com/wayfairtech">
+          </OutboundLink>
+          <OutboundLink target="_" href="https://twitter.com/wayfairtech">
             <StaticImage
               src="../images/IconTwitter.png"
               width={16}
@@ -83,8 +84,8 @@ const Header = () => (
                 margin: `8px`,
               }}
             />
-          </a>
-          <a target="_" href="https://www.youtube.com/channel/UCEvOJSbEEBkXw40FqHGPVRA">
+          </OutboundLink>
+          <OutboundLink target="_" href="https://www.youtube.com/channel/UCEvOJSbEEBkXw40FqHGPVRA">
             <StaticImage
               src="../images/IconYT.png"
               width={16}
@@ -95,7 +96,7 @@ const Header = () => (
                 margin: `8px`,
               }}
             />
-          </a>
+          </OutboundLink>
         </Col>
       </Row>
     </Container>

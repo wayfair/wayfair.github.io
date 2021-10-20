@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Container, Row, Col, Accordion } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 import { projects, languages } from "./projects.js"
 
@@ -110,7 +111,7 @@ const ProjectList = () => {
                 {language}
               </h5>
               <p>{description}</p>
-              <a
+              <OutboundLink
                 href={href}
                 target="_new"
                 style={{
@@ -128,7 +129,7 @@ const ProjectList = () => {
                     margin: `8px`,
                   }}
                 />
-              </a>
+              </OutboundLink>
             </Row>
           ))}
         </Col>
