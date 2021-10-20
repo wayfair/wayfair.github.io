@@ -55,7 +55,7 @@ const Supported = () => (
         <a href="https://buildkite.com/">
           <StaticImage
             className="d-none d-md-inline-flex"
-            src="../../images/supported/Buildkite.png"
+            src="../../images/supported/buildkite.png"
             alt="Buildkite Logo"
             height={130}
             width={130}
