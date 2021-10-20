@@ -51,7 +51,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b test-gh-pages",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
