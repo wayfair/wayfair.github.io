@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Supported = () => (
   <Container>
@@ -19,7 +20,7 @@ const Supported = () => (
       }}
     >
       <Col lg="3" sm="6">
-        <a href="https://www.python.org/">
+        <OutboundLink href="https://www.python.org/">
           <StaticImage
             className="d-none d-md-inline-flex"
             src="../../images/supported/python.png"
@@ -33,10 +34,10 @@ const Supported = () => (
             Developed under an OSI-approved open source license, evangelised at
             Wayfair
           </p>
-        </a>
+        </OutboundLink>
       </Col>
       <Col lg="3" sm="6">
-        <a href="https://backstage.spotify.com/">
+        <OutboundLink href="https://backstage.spotify.com/">
           <StaticImage
             className="d-none d-md-inline-flex"
             src="../../images/supported/backstage.png"
@@ -49,10 +50,10 @@ const Supported = () => (
           <p className="support-desc">
             An open platform for building developer portals, powered by spotify
           </p>
-        </a>
+        </OutboundLink>
       </Col>
       <Col lg="3" sm="6">
-        <a href="https://github.com/buildkite">
+        <OutboundLink href="https://github.com/buildkite">
           <StaticImage
             className="d-none d-md-inline-flex"
             src="../../images/supported/Buildkite.png"
@@ -66,10 +67,10 @@ const Supported = () => (
             Fast, secure, and scalable continuous integration and deployment
             pipelines
           </p>
-        </a>
+        </OutboundLink>
       </Col>
       <Col lg="3" sm="6">
-        <a href="https://tremor.rs">
+        <OutboundLink href="https://tremor.rs">
           <StaticImage
             className="d-none d-md-inline-flex"
             src="../../images/supported/tremor.png"
@@ -82,7 +83,7 @@ const Supported = () => (
           <p className="support-desc">
             Wayfair's early stage event processing system for unstructured data
           </p>
-        </a>
+        </OutboundLink>
       </Col>
     </Row>
   </Container>

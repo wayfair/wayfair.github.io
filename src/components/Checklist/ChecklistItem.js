@@ -1,4 +1,18 @@
 import * as React from "react"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
+import { Link } from "gatsby"
+
+const linkStyle = {
+  paddingRight: "20px",
+  paddingLeft: "20px",
+  paddingTop: "7px",
+  paddingBottom: "5px",
+  backgroundColor: "#fff",
+  borderRadius: "20px",
+  display: "inline-block",
+  color: "#612579",
+  textDecoration: "none"
+};
 
 const ChecklistItem = ({ title, description, href, btntext }) => (
   <div
@@ -18,21 +32,16 @@ const ChecklistItem = ({ title, description, href, btntext }) => (
       }}
     >{description}</div>
     <div>
-      <a href={href} style={{
-        paddingRight: "20px",
-        paddingLeft: "20px",
-        paddingTop: "7px",
-        paddingBottom: "5px",
-        backgroundColor: "#fff",
-        borderRadius: "20px",
-        display: "inline-block",
-        color: "#612579",
-        textDecoration: "none"
-      }}>
-        {btntext}
-      </a>
+      {href.startsWith("http") ?
+        <OutboundLink href={href} style={linkStyle}>
+          {btntext}
+        </OutboundLink>
+        : <Link to={href} style={linkStyle}>
+          {btntext}
+        </Link>
+      }
     </div>
-  </div>
+  </div >
 )
 
 export default ChecklistItem

@@ -2,6 +2,7 @@ import * as React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Footer = () => (
   <footer>
@@ -10,7 +11,7 @@ const Footer = () => (
         <Col>
           {/* Icons, Date Stamp, T/C */}
           <div>
-            <a target="_" href="https://github.com/wayfair">
+            <OutboundLink target="_" href="https://github.com/wayfair">
               <StaticImage
                 src="../images/IconGitHubFooter.png"
                 width={30}
@@ -20,8 +21,8 @@ const Footer = () => (
                   margin: `8px`,
                 }}
               />
-            </a>
-            <a target="_" href="https://twitter.com/wayfairtech">
+            </OutboundLink>
+            <OutboundLink target="_" href="https://twitter.com/wayfairtech">
               <StaticImage
                 src="../images/IconTwitterFooter.png"
                 width={30}
@@ -31,8 +32,8 @@ const Footer = () => (
                   margin: `8px`,
                 }}
               />
-            </a>
-            <a target="_" href="https://www.youtube.com/channel/UCEvOJSbEEBkXw40FqHGPVRA">
+            </OutboundLink>
+            <OutboundLink target="_" href="https://www.youtube.com/channel/UCEvOJSbEEBkXw40FqHGPVRA">
               <StaticImage
                 src="../images/IconYTFooter.png"
                 width={30}
@@ -42,17 +43,17 @@ const Footer = () => (
                   margin: `8px`,
                 }}
               />
-            </a>
+            </OutboundLink>
           </div>
           © {new Date().getFullYear()} by Wayfair LLC
           <br />
-          <a href="https://terms.wayfair.io/en-US?csnid=&csnutid=23e17d3a-60a2-a32f-7a77-40e928a4ff02&txid=I%2BF9OmCi2Z1anyLpyIwTAg%3D%3D#terms">
+          <OutboundLink href="https://terms.wayfair.io/en-US?csnid=&csnutid=23e17d3a-60a2-a32f-7a77-40e928a4ff02&txid=I%2BF9OmCi2Z1anyLpyIwTAg%3D%3D#terms">
             Terms and Conditions
-          </a>
+          </OutboundLink>
           &nbsp;|&nbsp;
-          <a href="https://www.aboutwayfair.com/about-wayfair-cookies">
+          <OutboundLink href="https://www.aboutwayfair.com/about-wayfair-cookies">
             Privacy Policy
-          </a>
+          </OutboundLink>
         </Col>
         <Col className="d-none justify-content-end d-lg-flex">
             <div className="d-inline-block">
@@ -79,42 +80,42 @@ const Footer = () => (
             <div className="d-inline-block">
               <div className="footer-heading">GitHub</div>
               <div className="footer-list">
-                <a href="https://github.com/wayfair">
+                <OutboundLink href="https://github.com/wayfair">
                   Wayfair
-                </a>
+                </OutboundLink>
                 <br />
-                <a href="https://github.com/wayfair-contribs">
+                <OutboundLink href="https://github.com/wayfair-contribs">
                   Contribs
-                </a>
+                </OutboundLink>
                 <br />
-                <a href="https://github.com/wayfair-incubator">
+                <OutboundLink href="https://github.com/wayfair-incubator">
                   Incubator
-                </a>
+                </OutboundLink>
                 <br />
-                <a href="https://github.com/wayfair-archive">
+                <OutboundLink href="https://github.com/wayfair-archive">
                   Archive
-                </a>
+                </OutboundLink>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div className="d-inline-block">
               <div className="footer-heading">Information</div>
               <div className="footer-list">
-                <a href="https://www.aboutwayfair.com/who-we-are">
+                <OutboundLink href="https://www.aboutwayfair.com/who-we-are">
                   Who We Are
-                </a>
+                </OutboundLink>
                 <br />
-                <a href="https://www.aboutwayfair.com/leadership">
+                <OutboundLink href="https://www.aboutwayfair.com/leadership">
                   Leadership
-                </a>
+                </OutboundLink>
                 <br />
-                <a href="https://www.aboutwayfair.com/how-we-work">
+                <OutboundLink href="https://www.aboutwayfair.com/how-we-work">
                   How We Work
-                </a>
+                </OutboundLink>
                 <br />
-                <a href="https://www.aboutwayfair.com/category/company-news">
+                <OutboundLink href="https://www.aboutwayfair.com/category/company-news">
                   News &amp; Stories
-                </a>
+                </OutboundLink>
               </div>
             </div>
         </Col>
