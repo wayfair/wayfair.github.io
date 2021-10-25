@@ -1,0 +1,17 @@
+name: Spellcheck
+
+on:
+  pull_request:
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Check spelling
+        uses: streetsidesoftware/cspell-action@v1.3.4
+        with:
+          files: "src/docs/**/*.md"
+          incremental_files_only: true
