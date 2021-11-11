@@ -4,7 +4,7 @@ module.exports = {
     description: `Home of the Open Source Program Office and Wayfair specific documenting for working with OSS`,
     author: `opensource@wayfair.com`,
     siteUrl: `https://wayfair.github.io`,
-    keywords: [`opensource`, `wayfair`, `Wayfair`, `OSS`],
+    keywords: [`opensource`, `wayfair`, `Wayfair`, `OSS`, `OSPO`],
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -99,9 +99,6 @@ module.exports = {
         icon: `src/images/wayfairossicon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-gatsby-cloud`
   ],
 }
