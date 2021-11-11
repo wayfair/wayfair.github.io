@@ -4,16 +4,16 @@ module.exports = {
     description: `Home of the Open Source Program Office and Wayfair specific documenting for working with OSS`,
     author: `opensource@wayfair.com`,
     siteUrl: `https://wayfair.github.io`,
-    keywords: ["opensource", "wayfair", "Wayfair", "OSS"],
+    keywords: [`opensource`, `wayfair`, `Wayfair`, `OSS`],
   },
   plugins: [
     `gatsby-plugin-sitemap`,
     {
-      resolve: "gatsby-plugin-robots-txt",
+      resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: "https://wayfair.github.io",
-        sitemap: "https://wayfair.github.io/sitemap/sitemap-index.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
+        host: `https://wayfair.github.io`,
+        sitemap: `https://wayfair.github.io/sitemap/sitemap-index.xml`,
+        policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -22,11 +22,11 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-WDNGECESR2", // GA external
-          "G-RPRD9CPSLT", // GA internal
+          `G-WDNGECESR2`, // GA external
+          `G-RPRD9CPSLT`, // GA internal
         ],
         gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
+          optimize_id: `OPT_CONTAINER_ID`,
           cookie_expires: 0,
         },
         pluginConfig: {
