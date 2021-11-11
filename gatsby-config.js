@@ -2,18 +2,19 @@ module.exports = {
   siteMetadata: {
     title: `Wayfair Open Source`,
     description: `Home of the Open Source Program Office and Wayfair specific documenting for working with OSS`,
-    author: ``,
-    siteUrl: `http://wayfair.github.io`,
+    author: `opensource@wayfair.com`,
+    siteUrl: `https://wayfair.github.io`,
+    keywords: ["opensource", "wayfair", "Wayfair", "OSS"],
   },
   plugins: [
     `gatsby-plugin-sitemap`,
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://wayfair.github.io',
-        sitemap: 'https://wayfair.github.io/sitemap/sitemap-index.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        host: "https://wayfair.github.io",
+        sitemap: "https://wayfair.github.io/sitemap/sitemap-index.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -22,7 +23,7 @@ module.exports = {
       options: {
         trackingIds: [
           "G-WDNGECESR2", // GA external
-          "G-RPRD9CPSLT" // GA internal
+          "G-RPRD9CPSLT", // GA internal
         ],
         gtagConfig: {
           optimize_id: "OPT_CONTAINER_ID",
@@ -46,14 +47,14 @@ module.exports = {
       options: {
         name: `fonts`,
         path: `${__dirname}/src/fonts`,
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `docs`,
         path: `${__dirname}/src/docs`,
-      }
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -78,8 +79,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              className: `heading-anchor`
-            }
+              className: `heading-anchor`,
+            },
           },
         ],
       },
