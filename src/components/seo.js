@@ -14,7 +14,7 @@ function Seo({ description, lang, meta, image: metaImage, title }) {
   const {
     site,
     file: {
-      childrenImageSharp: [resize],
+      childrenImageSharp: [ { resize } ],
     },
   } = useStaticQuery(
     graphql`
@@ -52,7 +52,6 @@ function Seo({ description, lang, meta, image: metaImage, title }) {
       : resize
       ? `${site.siteMetadata.siteUrl}${resize.src}`
       : null
-
   return (
     <Helmet
       htmlAttributes={{
@@ -99,7 +98,7 @@ function Seo({ description, lang, meta, image: metaImage, title }) {
         },
       ]
         .concat(
-          resize
+          image
             ? [
                 {
                   property: "og:image",
@@ -107,11 +106,11 @@ function Seo({ description, lang, meta, image: metaImage, title }) {
                 },
                 {
                   property: "og:image:width",
-                  content: resize.width,
+                  content: 600,
                 },
                 {
                   property: "og:image:height",
-                  content: resize.height,
+                  content: 400,
                 },
                 {
                   name: "twitter:card",
