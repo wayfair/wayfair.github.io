@@ -2,18 +2,19 @@ module.exports = {
   siteMetadata: {
     title: `Wayfair Open Source`,
     description: `Home of the Open Source Program Office and Wayfair specific documenting for working with OSS`,
-    author: ``,
-    siteUrl: `http://wayfair.github.io`,
+    author: `opensource@wayfair.com`,
+    siteUrl: `https://wayfair.github.io`,
+    keywords: [`opensource`, `wayfair`, `Wayfair`, `OSS`, `OSPO`],
   },
   plugins: [
     `gatsby-plugin-sitemap`,
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://wayfair.github.io',
-        sitemap: 'https://wayfair.github.io/sitemap/sitemap-index.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        host: `https://wayfair.github.io`,
+        sitemap: `https://wayfair.github.io/sitemap/sitemap-index.xml`,
+        policy: [{ userAgent: `*`, allow: `/` }],
+      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -21,11 +22,11 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-WDNGECESR2", // GA external
-          "G-RPRD9CPSLT" // GA internal
+          `G-WDNGECESR2`, // GA external
+          `G-RPRD9CPSLT`, // GA internal
         ],
         gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
+          optimize_id: `OPT_CONTAINER_ID`,
           cookie_expires: 0,
         },
         pluginConfig: {
@@ -46,14 +47,14 @@ module.exports = {
       options: {
         name: `fonts`,
         path: `${__dirname}/src/fonts`,
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `docs`,
         path: `${__dirname}/src/docs`,
-      }
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -78,8 +79,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              className: `heading-anchor`
-            }
+              className: `heading-anchor`,
+            },
           },
         ],
       },
@@ -98,9 +99,6 @@ module.exports = {
         icon: `src/images/wayfairossicon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-gatsby-cloud`
   ],
 }
