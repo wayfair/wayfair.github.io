@@ -1,5 +1,6 @@
 ---
 title: "Starting Your Own Project"
+featured: ./featured.png
 ---
 
 At Wayfair, we’re incredibly motivated to participate in open source as much as possible, which also includes starting our own projects. These stem anywhere from internal tools that have experienced successful usage as closed-source, now deemed ready for the outside world, to software that we purposely create and iterate on in the open, such as [Tremor](https://www.tremor.rs/).

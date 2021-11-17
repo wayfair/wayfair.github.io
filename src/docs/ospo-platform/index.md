@@ -1,5 +1,6 @@
 ---
 title: "Wayfair's OSPO: Platform"
+featured: ./featured.png
 ---
 
 Within Wayfair's Open Source Program Office, we have three main pillars that drive the team. We provide a platform of solutions with processes, tools, and support. We provide a team that combs through the organization, finding projects that may be ripe for open-sourcing. We also maintain and publicize our open source projects.

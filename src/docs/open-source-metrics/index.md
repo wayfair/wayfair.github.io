@@ -1,5 +1,6 @@
 ---
 title: "Open Source Metrics"
+featured: ./featured.png
 ---
 
 One of the most difficult questions to answer when we talk about open source is how we can track success. "Success" in an open source project is not a universal understanding. Launching a project, publicly available on GitHub, might be success. Having that project be downloaded multiple hundreds of thousands of times is a success. 

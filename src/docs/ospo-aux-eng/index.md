@@ -1,5 +1,6 @@
 ---
 title: "Wayfair's OSPO: Auxiliary Engineering"
+featured: ./featured.png
 ---
 
 Why open source? Using existing open source solutions allows your team to leverage the work of others and avoids having to reinvent the proverbial wheel, freeing your team to focus more immediately on your specific problem space, speeding up development. Building atop these existing solutions and contributing your work back upstream allows developers elsewhere to reap that same benefit.
