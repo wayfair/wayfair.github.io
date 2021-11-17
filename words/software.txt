@@ -1,2 +1,6 @@
 Brooklin
 Kubernetes
+CHAOSS
+opensource
+roadmap
+dogfooding

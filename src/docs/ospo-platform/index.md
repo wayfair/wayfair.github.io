@@ -19,7 +19,7 @@ Initially, our platform work involved surveying the current processes to get inv
 
 Beyond automated tools and workflows, we recognized an opportunity to provide clearer guidance on how to actually _engage_ with open source. Given that some Wayfair engineers are completely new to open source, while others may be seasoned contributors or project maintainers, a one-size-fits-all approach was unlikely to scale well.
 
-Instead, we’ve chosen to focus on curating materials for different audiences who are at varying stages of their open source journey, using **wayfair.github.io** as our homebase for the majority of this content. As we continue to build out the site, we’ll aim to incorporate different learning styles by offering both pragmatic technical documentation and "snackable bites" expressed through interactive walkthroughs and other engaging media.
+Instead, we’ve chosen to focus on curating materials for different audiences who are at varying stages of their open source journey, using **wayfair.github.io** as our home base for the majority of this content. As we continue to build out the site, we’ll aim to incorporate different learning styles by offering both pragmatic technical documentation and "snack-able bites" expressed through interactive walk-throughs and other engaging media.
 
 ### Partnerships
 
@@ -37,9 +37,9 @@ The good news? We’ve already made some cool stuff that we’re pretty proud of
 
 ### Templates
 
-In discussing some of the minimum criteria a typical open source project requires when starting out (eg. license, code of conduct, `README`), we realized that much of this project structure could be turned into a generic [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) that could apply to many common use cases. The culmination of those templating efforts has yielded our first project template: [**oss-template**](https://github.com/wayfair-incubator/oss-template) 🎉
+In discussing some of the minimum criteria a typical open source project requires when starting out (eg. license, code of conduct, `README`), we realized that much of this project structure could be turned into a generic [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) that could apply to many common use cases. The culmination of those template efforts has yielded our first project template: [**oss-template**](https://github.com/wayfair-incubator/oss-template) 🎉
 
-Since its release, we’ve leveraged this template numerous times for quickly scaffolding new projects, and best of all, it’s designed so that _anyone_ in the broader community can use it to jumpstart their project. Beyond the obvious time-saving benefits, providing an open source template also allows our team to educate on and enforce basic standards for new and old projects alike.
+Since its release, we’ve leveraged this template numerous times for quickly scaffolding new projects, and best of all, it’s designed so that _anyone_ in the broader community can use it to jump start their project. Beyond the obvious time-saving benefits, providing an open source template also allows our team to educate on and enforce basic standards for new and old projects alike.
 
 ### Forks
 
@@ -51,7 +51,7 @@ Rather than continue this manual slog, we decided to automate the workflow, and 
 
 As anyone who’s familiar with platform work may know, we’re constantly striving to make both incremental, short-term improvements as well as strategic, longer-term changes that will jointly benefit the OSPO, Wayfair, and the open source community. 
 
-We’ve already planned several enhancements to our [**oss-template**](https://github.com/wayfair-incubator/oss-template), and are actively scoping the work required to create a fully self-serviceable pipeline for GitHub organizational requests by leveraging [**Forker**](https://github.com/marketplace/actions/github-forker) and other automated workflows. To help manage security vulnerabilities and gauge overall "project health" across our many orgs and repositories, we’ll be investigating the programmatic use of tools like [Dependabot](https://dependabot.com/) and community management software developed by [CHAOSS](https://chaoss.community/).
+We’ve already planned several enhancements to our [**oss-template**](https://github.com/wayfair-incubator/oss-template), and are actively scoping the work required to create a fully self-serviceable pipeline for GitHub organizational requests by leveraging [**Forker**](https://github.com/marketplace/actions/github-forker) and other automated workflows. To help manage security vulnerabilities and gauge overall "project health" across our many organizations and repositories, we’ll be investigating the programmatic use of tools like [Dependabot](https://dependabot.com/) and community management software developed by [CHAOSS](https://chaoss.community/).
 
 Lastly, we’ll continue to engage with our open source stakeholders, both inside and outside of Wayfair, actively collecting feedback and use cases that drive us to prioritize additional platform work. In other words: our work here is never really done! 😅
 

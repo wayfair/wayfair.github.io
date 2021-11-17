@@ -55,7 +55,7 @@ As we mentioned earlier in this guide, communication is going to be crucial. If 
 
 ## Opening a Pull Request
 
-Similarly to issues, you’ll want to consider requisite documentation and resources before you open a pull request. This is especially important given that pull requests are how we get started on solutioning in open source projects. Note that we mention “getting started” in terms of solutions: Pull requests don’t need to be representative of finished work. You can add “Work in Progress” in your subject line, for example, to indicate its status. Update this as you carry on with your work.
+Similarly to issues, you’ll want to consider requisite documentation and resources before you open a pull request. This is especially important given that pull requests are how we get started on providing solutions in open source projects. Note that we mention “getting started” in terms of solutions: Pull requests don’t need to be representative of finished work. You can add “Work in Progress” in your subject line, for example, to indicate its status. Update this as you carry on with your work.
 
 Why you would open a pull request:
 
@@ -89,7 +89,7 @@ Regardless of the outcome, remember that respecting others within the community 
 
 A company as large as ours relies on a lot of open source software, thus, Wayfair is also a big advocate for contributing back upstream as much as possible. When adding net-new to any applications or services, we empower our technology teams to adopt open source solutions when feasible. Since it’s rare that our teams will find an exact, line-by-line match for their specific use case, being able to build upon something that gets us 70% of the way there and contributing it back to the project is extremely worthwhile.
 
-A good example of this in action is our work with LinkedIn’s [Brooklin](https://github.com/wayfair-contribs/brooklin). Our Big Data and Messaging team relies on this software for streaming data between various heterogeneous source and destination systems, as opposed to having built a customised, bespoke tool. Our contributions take place through our [Wayfair Contribs](https://github.com/wayfair-contribs) organization, where we fork the projects we’re using and contributing back to. In this model, we add a Wayfairian’s personal GitHub account to the forked project, giving them the ability to submit PRs from themselves as an individual, all while being recognized as employed by Wayfair, who are enabling the open source contribution through this workflow.
+A good example of this in action is our work with LinkedIn’s [Brooklin](https://github.com/wayfair-contribs/brooklin). Our Big Data and Messaging team relies on this software for streaming data between various heterogeneous source and destination systems, as opposed to having built a customized, bespoke tool. Our contributions take place through our [Wayfair Contribs](https://github.com/wayfair-contribs) organization, where we fork the projects we’re using and contributing back to. In this model, we add a Wayfairian’s personal GitHub account to the forked project, giving them the ability to submit PRs from themselves as an individual, all while being recognized as employed by Wayfair, who are enabling the open source contribution through this workflow.
 
 The steps to setting up a forked repository of a project you’re contributing to at Wayfair are:
 
