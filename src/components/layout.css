@@ -53,7 +53,7 @@ header {
   border-bottom: 1px solid #dadada;
 }
 footer {
-  position: sticky;
+  position: relative;
   height:140px;
   bottom:0;
   width:100%;
