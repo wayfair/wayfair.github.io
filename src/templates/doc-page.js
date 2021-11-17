@@ -26,7 +26,7 @@ const DocPage = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={`Wayfair Open Source - ${page.frontmatter.title}`} />
+      <Seo title={`Wayfair Open Source - ${page.frontmatter.title}`} metaImage={page.frontmatter.image}/>
       <Container>
         <Spacer />
         <Row className="d-lg-none">
@@ -75,6 +75,15 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        image: featured {
+          childImageSharp {
+            resize(width: 600, height: 400) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
     allMarkdownRemark {
