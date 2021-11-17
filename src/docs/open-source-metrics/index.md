@@ -10,7 +10,7 @@ Instead of measuring specifically for "success" -- we use these indicators to le
 
 ## Discovery
 
-GitHub provides [insights](https://help.github.com/articles/about-repository-graphs/#traffic) to project traffic, including total page views, unique visitors, referring sites, and popular content. If you'd like to track these over time, GitHub provides a reasonable vizualization. You could also track how discoverable your project is. Google PageRank, for example, may give a better idea of how your project's website is progressing. An important thing to keep in mind: [contributors are not the whole story](https://opensource.com/business/16/6/pirate-metrics) when it comes to how "discoverable" or "successful" your project may be.
+GitHub provides [insights](https://help.github.com/articles/about-repository-graphs/#traffic) to project traffic, including total page views, unique visitors, referring sites, and popular content. If you'd like to track these over time, GitHub provides a reasonable visualization. You could also track how discoverable your project is. Google PageRank, for example, may give a better idea of how your project's website is progressing. An important thing to keep in mind: [contributors are not the whole story](https://opensource.com/business/16/6/pirate-metrics) when it comes to how "discoverable" or "successful" your project may be.
 
 ## Retention
 

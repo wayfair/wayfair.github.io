@@ -19,7 +19,7 @@ Initially, our platform work involved surveying the current processes to get inv
 
 Beyond automated tools and workflows, we recognized an opportunity to provide clearer guidance on how to actually _engage_ with open source. Given that some Wayfair engineers are completely new to open source, while others may be seasoned contributors or project maintainers, a one-size-fits-all approach was unlikely to scale well.
 
-Instead, we’ve chosen to focus on curating materials for different audiences who are at varying stages of their open source journey, using **wayfair.github.io** as our home base for the majority of this content. As we continue to build out the site, we’ll aim to incorporate different learning styles by offering both pragmatic technical documentation and "snack-able bites" expressed through interactive walk-throughs and other engaging media.
+Instead, we’ve chosen to focus on curating materials for different audiences who are at varying stages of their open source journey, using **wayfair.github.io** as our home base for the majority of this content. As we continue to build out the site, we’ll aim to incorporate different learning styles by offering both pragmatic technical documentation and "snack-able bites" expressed through interactive walkthroughs and other engaging media.
 
 ### Partnerships
 

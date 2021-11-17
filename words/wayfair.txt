@@ -3,3 +3,5 @@ OSPO
 Wayfair
 Wayfairian
 Wayfairians
+choosealicense
+walkthroughs
