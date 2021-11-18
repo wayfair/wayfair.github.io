@@ -1,5 +1,6 @@
 ---
 title: "Open Source Metrics"
+featured: ./featured.png
 ---
 
 One of the most difficult questions to answer when we talk about open source is how we can track success. "Success" in an open source project is not a universal understanding. Launching a project, publicly available on GitHub, might be success. Having that project be downloaded multiple hundreds of thousands of times is a success. 
@@ -9,7 +10,7 @@ Instead of measuring specifically for "success" -- we use these indicators to le
 
 ## Discovery
 
-GitHub provides [insights](https://help.github.com/articles/about-repository-graphs/#traffic) to project traffic, including total page views, unique visitors, referring sites, and popular content. If you'd like to track these over time, GitHub provides a reasonable vizualization. You could also track discoverability in specific places. Google PageRank, for example, may give a better idea of how your project's website is progressing. An important thing to keep in mind: [contributors are not the whole story](https://opensource.com/business/16/6/pirate-metrics) when it comes to how "discoverable" or "successful" your project may be.
+GitHub provides [insights](https://help.github.com/articles/about-repository-graphs/#traffic) to project traffic, including total page views, unique visitors, referring sites, and popular content. If you'd like to track these over time, GitHub provides a reasonable visualization. You could also track how discoverable your project is. Google PageRank, for example, may give a better idea of how your project's website is progressing. An important thing to keep in mind: [contributors are not the whole story](https://opensource.com/business/16/6/pirate-metrics) when it comes to how "discoverable" or "successful" your project may be.
 
 ## Retention
 
@@ -32,7 +33,7 @@ This work is not as simple as "do this thing and understand how people use the p
 
 ## Maintainer Activity
 
-Maintainers of a project are usually the last touchpoint before any contribution is integrated. If a contributor can't depend on maintainers to review and accept, or reject changes, they may become discouraged and decide against contributing again.
+Maintainers of a project are usually the last touch point before any contribution is integrated. If a contributor can't depend on maintainers to review and accept, or reject changes, they may become discouraged and decide against contributing again.
 
 Consider how long it may take to **close open issues**, **how many closures are from pull requests**, **how long stale issues are open**, and **the average time to merge a pull request**. These should give some indication for how responsive a maintaining team is of a given project. Your own thresholds may vary depending on the project and your availability.
 

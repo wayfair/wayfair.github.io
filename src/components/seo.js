@@ -52,6 +52,7 @@ function Seo({ description, lang, meta, image: metaImage, title }) {
       : resize
       ? `${site.siteMetadata.siteUrl}${resize.src}`
       : null
+  
   return (
     <Helmet
       htmlAttributes={{

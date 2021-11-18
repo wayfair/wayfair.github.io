@@ -1,5 +1,6 @@
 ---
 title: "Starting Your Own Project"
+featured: ./featured.png
 ---
 
 At Wayfair, we’re incredibly motivated to participate in open source as much as possible, which also includes starting our own projects. These stem anywhere from internal tools that have experienced successful usage as closed-source, now deemed ready for the outside world, to software that we purposely create and iterate on in the open, such as [Tremor](https://www.tremor.rs/).
@@ -47,7 +48,7 @@ You’ll want to use your README to communicate what your project does, why your
 
 Specific development instructions are also incredibly important to provide to contributors, given the likelihood that they’ll need to install extra dependencies or run additional commands in order to create a proper developer environment. You’ll want to cross-reference these instructions in your CONTRIBUTING file, which we expand on below.
 
-While not custom for all READMEs, linking to future planning or roadmaps for your project is another excellent way to heighten engagement with your work and champion transparency across future releases. These plans or roadmaps could take many forms, such as a presentation, back brief, or OKR spreadsheet. You can also utilize the [GitHub Projects feature](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) for this work. Make sure you manage the permissions of whatever you’re linking to so that your information is protected.
+While not custom for all READMEs, linking to future planning or road maps for your project is another excellent way to heighten engagement with your work and champion transparency across future releases. These plans or road maps could take many forms, such as a presentation, back brief, or OKR spreadsheet. You can also utilize the [GitHub Projects feature](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) for this work. Make sure you manage the permissions of whatever you’re linking to so that your information is protected.
 
 ### Facilitating Contributions
 

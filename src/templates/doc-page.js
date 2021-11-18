@@ -12,6 +12,8 @@ const DocPage = ({ data }) => {
   const { edges: pages } = data.allMarkdownRemark
   const [show, setShow] = useState(false)
 
+  const image = page.frontmatter.image ? page.frontmatter.image.childImageSharp.resize : null;
+
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
   const onKeyDown = event => {
@@ -26,7 +28,7 @@ const DocPage = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={`Wayfair Open Source - ${page.frontmatter.title}`} />
+      <Seo title={`Wayfair Open Source - ${page.frontmatter.title}`} image={image}/>
       <Container>
         <Spacer />
         <Row className="d-lg-none">
@@ -34,7 +36,6 @@ const DocPage = ({ data }) => {
             className="doc-nav-button"
             onKeyDown={onKeyDown}
             tabIndex="0"
-            onKey
             role="button"
             onClick={handleShow}
           >
@@ -75,6 +76,15 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        image: featured {
+          childImageSharp {
+            resize(width: 600, height: 400) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
     allMarkdownRemark {

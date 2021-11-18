@@ -1,5 +1,6 @@
 ---
 title: "Code of Conduct"
+featured: ./featured.png
 ---
 
 When maintaining a project, contributing to a project, or interacting with an open source community, you should be familiar with codes of conduct (CoC). Choosing a code of conduct for your project could be straightforward, since there are many [great examples that are continuously improved](https://www.contributor-covenant.org/). Enforcing this code and understanding why you need it may be a little more difficult.

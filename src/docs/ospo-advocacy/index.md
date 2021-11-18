@@ -1,5 +1,6 @@
 ---
 title: "Wayfair's OSPO: Advocacy"
+featured: ./featured.png
 ---
 
 Within Wayfair's Open Source Program Office, we have three main pillars that drive the team. We provide a platform of solutions with processes, tools, and support. We provide a team that combs through the organization, finding projects that may be ripe for open-sourcing. We also maintain and publicize our open source projects. 
@@ -10,7 +11,7 @@ This article will focus on the latter of these three responsibilities. We advoca
 
 ### Responsibility to Wayfair
 
-We, as Wayfairians, write solutions for a large e-commerce enterprise that we hope may apply to more than our specific use case. The best way for us to reach as many people as possible is to ensure we present our solutions in a way that we expect will be well-recieved in the OSS community. Our first priority in Advocacy is to represent the stability, integrity, and usefulness of the software that engineers within and outside of Wayfair contribute to our OSS (Open Source Software) presence.
+We, as Wayfairians, write solutions for a large e-commerce enterprise that we hope may apply to more than our specific use case. The best way for us to reach as many people as possible is to ensure we present our solutions in a way that we expect will be well-received in the OSS community. Our first priority in Advocacy is to represent the stability, integrity, and usefulness of the software that engineers within and outside of Wayfair contribute to our OSS (Open Source Software) presence.
 
 This may include creating content to publicize and inform on our solutions, through [blog posts](https://tech.wayfair.com/), presentations, tech talks, meetups, and more. This may also include setting standards throughout our organization that help ensure a reasonable level of consistency across our offerings, without suffocating the innovation required to keep moving a project forward.
 
@@ -26,7 +27,7 @@ We owe the ecosystem outside our company that built incredible frameworks and la
 
 ### Who Does It?
 
-We do this work as a shared effort across the team. The folks who contribute the most are [Developer Advocates](https://www.fosslife.org/what-developer-advocate). In a nutshell, we have people who are passionate about helping the open source community conntinuously improve. They help by contributing code, issues, and communication about our projects. They're relationship builders, they're developers, and they're people who like to understand what we can do better.
+We do this work as a shared effort across the team. The folks who contribute the most are [Developer Advocates](https://www.fosslife.org/what-developer-advocate). In a nutshell, we have people who are passionate about helping the open source community continuously improve. They help by contributing code, issues, and communication about our projects. They're relationship builders, they're developers, and they're people who like to understand what we can do better.
 
 Developer Advocates contribute to our major Open Source projects and write presentations about it. They may hold meetups, tech talks, or virtual streams to publicize the work that Wayfair does in Open Source. They may write blog posts, participate in partnerships with other organizations, and build communities around our solutions. 
 
