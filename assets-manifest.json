@@ -1,8 +1,0 @@
-{
-  "main.js": "render-page.js",
-  "render-page.js.map": "render-page.js.map",
-  "static/bg.png": "static/bg-60358ac24a8520c32aed052395dc484c.png",
-  "static/git-parse.png": "static/git-parse-07c491502cf024afa4d7423f9debfd0e.png",
-  "static/sentiment.png": "static/sentiment-e1787c2506aa79b4dfe0b4b0a36d0f97.png",
-  "static/tremor.png": "static/tremor-e69703abe757dbef626d921c3fcf7d66.png"
-}
