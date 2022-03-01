@@ -1,6 +1,6 @@
 ---
 title: How To Contribute to Open Source
-featured: ./featured.png 
+featured: ./images/featured/contribute.png
 ---
 
 Collaborating effectively is one of the most important skills you’ll develop in open source. It is important whether you’re a casual or regular contributor. If you’re unsure how to get started, we recommend looking into the projects you already use, or want to use. The projects you’ll actively contribute to are the ones you’ll find yourself coming back to.

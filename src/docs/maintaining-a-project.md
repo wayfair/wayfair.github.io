@@ -1,6 +1,6 @@
 ---
 title: Maintaining a Project
-featured: ./featured.png
+featured: ./images/featured/maintaining-a-project.png
 ---
 
 ## Building a Process

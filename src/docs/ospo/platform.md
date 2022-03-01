@@ -1,6 +1,6 @@
 ---
 title: "Wayfair's OSPO: Platform"
-featured: ./featured.png
+featured: ../images/featured/ospo/platform.png
 ---
 
 Within Wayfair's Open Source Program Office, we have three main pillars that drive the team. We provide a platform of solutions with processes, tools, and support. We provide a team that combs through the organization, finding projects that may be ripe for open-sourcing. We also maintain and publicize our open source projects.
@@ -49,7 +49,7 @@ Rather than continue this manual slog, we decided to automate the workflow, and 
 
 ## Future
 
-As anyone who’s familiar with platform work may know, we’re constantly striving to make both incremental, short-term improvements as well as strategic, longer-term changes that will jointly benefit the OSPO, Wayfair, and the open source community. 
+As anyone who’s familiar with platform work may know, we’re constantly striving to make both incremental, short-term improvements as well as strategic, longer-term changes that will jointly benefit the OSPO, Wayfair, and the open source community.
 
 We’ve already planned several enhancements to our [**oss-template**](https://github.com/wayfair-incubator/oss-template), and are actively scoping the work required to create a fully self-serviceable pipeline for GitHub organizational requests by leveraging [**Forker**](https://github.com/marketplace/actions/github-forker) and other automated workflows. To help manage security vulnerabilities and gauge overall "project health" across our many organizations and repositories, we’ll be investigating the programmatic use of tools like [Dependabot](https://dependabot.com/) and community management software developed by [CHAOSS](https://chaoss.community/).
 
