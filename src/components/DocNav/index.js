@@ -2,6 +2,7 @@ import * as React from "react"
 
 import { Link } from "gatsby"
 import { Accordion } from "react-bootstrap"
+import { v4 as uuidv4 } from "uuid"
 
 const makeLink = page => (
   <Link to={page.slug} key={page.id}>
@@ -12,7 +13,7 @@ const makeLink = page => (
 )
 
 const makeLinkGroup = page => (
-  <Accordion>
+  <Accordion key={uuidv4()}>
     <Accordion.Item eventKey={page.id}>
       <Accordion.Header>{page.title}</Accordion.Header>
       <Accordion.Body>
