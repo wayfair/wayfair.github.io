@@ -2,28 +2,39 @@
   text-decoration:none;
   color: #5a5b5c;
 }
-.docs-navigation div:hover {
-  background-color: #a77ad74f;
-  border-radius: 15px;
-  padding-left: 10px;
+
+.docs-navigation > a > div {
+  padding: 2pt 0 2pt 10pt;
 }
+
+.docs-navigation div.accordion-item .accordion-header:hover .accordion-button.collapsed,
+.docs-navigation div.accordion-item .accordion-header:hover,
+.docs-navigation a[aria-current="page"] div,
+.docs-navigation div:hover {
+  background-color: #e1dcf2;
+  border-radius: 5px;
+}
+
 .doc-nav-button:hover {
   background-color: #a77ad7cc;
   border-radius: 15px;
   padding-left: 10px;
   color:#ffffff
 }
+
 .doc-container .title {
   font-size: 40pt;
   line-height: 40pt;
   color: #612578;
   font-weight: bold;
 }
+
 .doc-container h1 {
   font-size: 36pt;
   line-height: 36pt;
   color: #a77AD7;
 }
+
 .doc-container h2 {
   font-size: 32pt;
   line-height: 32pt;
@@ -36,6 +47,63 @@
   margin-top:10pt;
   margin-bottom: 10pt;
 }
+
 .doc-container h4 {
   font-size: 20pt;
+}
+
+/* Accordion nav */
+.docs-navigation .accordion-item {
+  border: none;
+}
+
+.docs-navigation .accordion-header {
+  font-weight: normal;
+  line-height: var(--bs-base-line-height);
+}
+
+.docs-navigation .accordion-button {
+  color: #5a5b5c;
+  font-size: 14pt;
+  padding: 0;
+}
+
+.docs-navigation .accordion-button:not(.collapsed) {
+  background-color: inherit;
+  box-shadow: none;
+}
+
+.docs-navigation .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235a5b5c'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.docs-navigation .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235a5b5c'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.docs-navigation div.accordion:hover,
+.docs-navigation div.accordion-item:hover,
+.docs-navigation div.accordion-body:hover,
+.docs-navigation div.accordion-collapse:hover {
+  background-color: inherit;
+}
+
+.docs-navigation .accordion-body {
+  padding: 0;
+}
+
+.docs-navigation .accordion-header,
+.docs-navigation .accordion-body a div {
+  padding-left: 10pt;
+  padding-right: 0;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+}
+
+.docs-navigation .accordion-body a div {
+  padding-left: 25pt;
+}
+
+.docs-navigation .accordion-button {
+  transition: none;
 }

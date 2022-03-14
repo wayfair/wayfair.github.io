@@ -1,6 +1,6 @@
 ---
 title: "Convince Your Boss"
-featured: ./featured.png
+featured: ./images/featured/convince-your-boss.png
 # cspell:words timeframe
 ---
 ## Talking About Open Source With Your Boss

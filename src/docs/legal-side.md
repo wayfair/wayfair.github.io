@@ -1,6 +1,6 @@
 ---
 title: The Legal Side of Open Source
-featured: ./featured.png
+featured: ./images/featured/legal-side.png
 ---
 
 One very important aspect of open source software is how the law affects its use, distribution, and modification. As [Open Source Guide](https://opensource.guide/legal/#why-do-people-care-so-much-about-the-legal-side-of-open-source) clearly states, when you create something, such as writing, graphics, or code, that work is under exclusive copyright by default. That means the law assumes that as the author of your work, you have a say in what others can do with it.

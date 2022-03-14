@@ -1,9 +1,9 @@
 ---
 title: "Open Source Metrics"
-featured: ./featured.png
+featured: ./images/featured/open-source-metrics.png
 ---
 
-One of the most difficult questions to answer when we talk about open source is how we can track success. "Success" in an open source project is not a universal understanding. Launching a project, publicly available on GitHub, might be success. Having that project be downloaded multiple hundreds of thousands of times is a success. 
+One of the most difficult questions to answer when we talk about open source is how we can track success. "Success" in an open source project is not a universal understanding. Launching a project, publicly available on GitHub, might be success. Having that project be downloaded multiple hundreds of thousands of times is a success.
 
 Instead of measuring specifically for "success" -- we use these indicators to learn about our projects, their community, adoption, and what we might be able to do to improve. We'll use sources and ideas mainly from [opensource.guide](https://opensource.guide/metrics/) for this page, and have some [blog posts](https://opensource.com/business/14/10/head-of-open-source-facebook-oscon) and other sources we will include as we learn more about measuring and maintaining our OSS.
 
@@ -23,7 +23,7 @@ These metrics together, and available on GitHub with an API call or looking at t
 
 These questions could indicate what level of effort a maintainer should put in for maintaining the community; instead of only for the code they wish to contribute. It also allows us to stand against having a project everyone uses, without enough folks to maintain it.
 
-## Usage 
+## Usage
 
 Many package managers these days [keep track](https://RubyGems.org) of their [own metrics](https://npmjs.com) for how many "downloads" (differs across managers) a given project may have. Consider using [tools to aggregate them](https://libraries.io), if your goal is to track "usage" by how many downloads a project has, and you're using an industry standard package manager.
 
