@@ -145,7 +145,7 @@ The OSPO maintains discretion on archiving shelved projects, following review of
 
 #### Archived
 
-#### Definition / Criteria
+##### Definition / Criteria
 
 An archived project is a project that has been made read-only on GitHub through the "archive" feature on its repository.
 We may archive projects that do not have many or any downstream dependent projects, are not used for production cases within Wayfair, or have not been updated for a long period.
