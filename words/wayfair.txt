@@ -5,3 +5,6 @@ Wayfairian
 Wayfairians
 choosealicense
 walkthroughs
+maintainership
+undermaintained
+unarchived
