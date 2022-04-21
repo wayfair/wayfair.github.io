@@ -1,3 +1,7 @@
+---
+title: "Project Maintainership"
+featured: ./images/featured/code-of-conduct.png
+---
 # Guidelines for Maintenance and Deprecation of GitHub Projects
 
 This document is a transcription of an RFC we've accepted at Wayfair regarding the states of maintainership for our open source projects.
