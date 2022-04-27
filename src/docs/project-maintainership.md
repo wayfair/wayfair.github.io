@@ -1,6 +1,6 @@
 ---
 title: "Project Maintainership"
-featured: ./images/featured/code-of-conduct.png
+featured: ./images/featured/project-maintenance.png
 ---
 # Guidelines for Maintenance and Deprecation of GitHub Projects
 
