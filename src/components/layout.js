@@ -13,6 +13,7 @@ import Header from "./header"
 import "../fonts/SoFIa/sofia.css";
 import "./layout.css"
 import Footer from "./footer"
+import CookieBanner from "./cookiebanner";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>{children}</main>
       <Footer />
+      <CookieBanner />
     </>
   )
 }

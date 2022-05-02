@@ -1,5 +1,4 @@
 import * as React from "react"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
 import { Link } from "gatsby"
 
 const linkStyle = {
@@ -33,9 +32,9 @@ const ChecklistItem = ({ title, description, href, btntext }) => (
     >{description}</div>
     <div>
       {href.startsWith("http") ?
-        <OutboundLink href={href} style={linkStyle}>
+        <a href={href} style={linkStyle}>
           {btntext}
-        </OutboundLink>
+        </a>
         : <Link to={href} style={linkStyle}>
           {btntext}
         </Link>

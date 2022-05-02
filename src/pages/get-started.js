@@ -8,8 +8,6 @@ import Checklist from "../components/Checklist"
 import Spacer from "../components/Spacer"
 import Resources from "../components/Resources"
 
-import { OutboundLink } from "gatsby-plugin-google-gtag"
-
 const GetStartedPage = () => (
   <Layout>
     <Seo title="Get Started With Open Source - Wayfair" />
@@ -22,7 +20,7 @@ const GetStartedPage = () => (
             Engage with an Open Source community built across several languages,
             a decade of experience, and thousands of users.
           </p>
-          <OutboundLink href="https://github.com/wayfair">View Our Projects</OutboundLink>
+          <a href="https://github.com/wayfair">View Our Projects</a>
         </Col>
         <Col md="1" sm="0" />
         <Col md="12" lg="6">

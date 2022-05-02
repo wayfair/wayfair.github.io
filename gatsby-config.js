@@ -19,20 +19,14 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingIds: [
-          `G-WDNGECESR2`, // GA external
-          `G-RPRD9CPSLT`, // GA internal
-        ],
-        gtagConfig: {
-          optimize_id: `OPT_CONTAINER_ID`,
-          cookie_expires: 0,
+        googleTagManager: {
+          trackingId: 'G-WDNGECESR2', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          dataLayerName: 'dataLayer', // default
         },
-        pluginConfig: {
-          head: false,
-          respectDNT: true,
-        },
+        environments: ['production']
       },
     },
     {
