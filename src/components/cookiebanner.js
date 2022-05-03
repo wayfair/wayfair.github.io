@@ -22,10 +22,10 @@ const CookieBanner = ({ cookies }) => {
         <Container
             fluid
             style={{
-                background: `#e1dcf2`,
+                background: `#612578`,
                 position: `fixed`,
                 bottom: 0,
-                paddingTop: `10px`,
+                paddingTop: `15px`,
                 paddingBottom:`10px`
             }}
         >
@@ -39,6 +39,8 @@ const CookieBanner = ({ cookies }) => {
                     className="d-inline"
                     style={{
                         textAlign: "left",
+                        fontWeight: "bold",
+                        color: "white"
                     }}
                 >
                     We use cookies and analytics to track your usage of our site. You may opt-out by clicking "reject", or opt-in by clicking "accept".
