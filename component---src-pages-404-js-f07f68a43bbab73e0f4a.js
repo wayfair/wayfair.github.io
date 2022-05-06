@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwayfair_github_io=self.webpackChunkwayfair_github_io||[]).push([[883],{429:function(e,t,n){n.r(t);var u=n(7294),a=n(1977),l=n(262);t.default=function(){return u.createElement(a.Z,null,u.createElement(l.Z,{title:"Wayfair Open Source: 404 Not found"}),u.createElement("h1",null,"404: Not Found"),u.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-f07f68a43bbab73e0f4a.js.map
