@@ -2,13 +2,12 @@
 title: "Project Maintainership"
 featured: ./images/featured/project-maintenance.png
 ---
-# Guidelines for Maintenance and Deprecation of GitHub Projects
 
-Wayfair has multiple Github Organizations, and many projects within each. We've developed guidelines to help ensure that we're highlighting the states projects are in to potential users/contributors and future maintainers. It also helps maintainers and the OSPO team determine when / how to transition projects between states.
+Wayfair has multiple GitHub Organizations, and many projects within each. We've developed guidelines to help ensure that we're highlighting the states projects are in to potential users/contributors and future maintainers. It also helps maintainers and the OSPO team determine when / how to transition projects between states.
 
 ## States of a Project
 
-The OSPO classifies projects as at least one state, and can move between them as the criteria for other states are met through action or inaction of project contributors and maintainers.
+The OSPO classifies projects as entities existing in at least one state, and can move between them as the criteria for other states are met through action or inaction of project contributors and maintainers.
 
 Below we'll explain the **definition / criteria** of each state and any **possible movements** from one state to another.
 
@@ -133,8 +132,9 @@ We explicitly should not unarchive what we expect to be **preserving** projects,
 
 ### Exceptional Cases
 
-In rare cases there are projects that don't match the pre-defined states. Some the reasons might be:
+In rare cases there are projects that don't match the pre-defined states. Some of the reasons might be:
 
 1. A language the project is written in is not a supported Wayfair language. _NOTE: Supported languages are subject to change_
 2. A project's maintainer(s) need time to evaluate their ability to maintain the project.
 3. OSPO will need to search for teams who want to own any **shelved** projects.
+4. This proposal's parameters for well **maintained** or **preserving** may be close to a reasonable expectation, but not perfect.
