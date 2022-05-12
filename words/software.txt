@@ -4,3 +4,6 @@ CHAOSS
 opensource
 roadmap
 dogfooding
+Kube
+CNCF
+reviewership
