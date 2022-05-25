@@ -4,7 +4,7 @@ import { withCookies } from 'react-cookie'
 
 const CookieBanner = ({ cookies }) => {    
     const setCookies = (cookiesBool) => {
-        cookies.set('gatsby-gdpr-google-tagmanager', cookiesBool) // so named to allow
+        cookies.set('gatsby-gdpr-google-analytics', cookiesBool) // so named to allow
     }
 
     const onKeyDown = (event, cookies) => {
@@ -18,7 +18,7 @@ const CookieBanner = ({ cookies }) => {
         }
     }
 
-    return (typeof cookies.get('gatsby-gdpr-google-tagmanager') == 'undefined') ? (
+    return (typeof cookies.get('gatsby-gdpr-google-analytics') == 'undefined') ? (
         <Container
             fluid
             style={{
