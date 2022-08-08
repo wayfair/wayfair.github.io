@@ -6,8 +6,6 @@ on:
 jobs:
   validate-build:
     runs-on: ubuntu-latest
-    container:
-      image: node:16-alpine3.15
     steps:
       - uses: actions/checkout@v3
       - name: 🔧 install + build # This project is built using npm and outputs the result to the 'build' folder
