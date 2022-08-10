@@ -9,19 +9,21 @@ Like anyone new to the neighborhood, contributing to open source will require a 
 
 When preparing to contribute, it’s worth digging into the repository in terms of commits (such as their frequency and recency) as well as its issues and pull requests. Don’t forget to make sure the project has a license, too! Before you contribute, assess the project for yourself with this handy list that we’ve compiled from [Open Source Guide](https://opensource.guide/how-to-contribute/#orienting-yourself-to-a-new-project):
 
-- **Looking at Issues**
-  - How many open issues are there?
-  - Do maintainers respond quickly to issues when they are opened?
-  - Is there active discussion on the issues?
-  - Are the issues recent?
-  - Are issues getting closed? (On GitHub, click the "closed" tab on the Issues page to see closed issues.)
+### Looking at Issues
 
-- **Going through Pull Requests**
-  - How many open pull requests are there?
-  - Do maintainers respond quickly to pull requests when they are opened?
-  - Is there active discussion on the pull requests?
-  - Are the pull requests recent?
-  - How recently were any pull requests merged? (On GitHub, click the "closed" tab on the Pull Requests page to see closed PRs.)
+- How many open issues are there?
+- Do maintainers respond quickly to issues when they are opened?
+- Is there active discussion on the issues?
+- Are the issues recent?
+- Are issues getting closed? (On GitHub, click the "closed" tab on the Issues page to see closed issues.)
+
+### Going through Pull Requests
+
+- How many open pull requests are there?
+- Do maintainers respond quickly to pull requests when they are opened?
+- Is there active discussion on the pull requests?
+- Are the pull requests recent?
+- How recently were any pull requests merged? (On GitHub, click the "closed" tab on the Pull Requests page to see closed PRs.)
 
 Finally, it’s worth remembering that contributions don’t always have to be code. Documentation, project management (for larger projects and communities), plus other non-code contributions are just as valuable to projects as code changes, and is a great way to get your foot in the door when you’re new around town.
 
