@@ -17,7 +17,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "groupName": "Minor Updates",
+      "groupName": "Minor Packages",
       "automerge": true
     },
     {
