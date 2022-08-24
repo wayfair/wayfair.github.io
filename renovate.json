@@ -33,6 +33,11 @@
       "groupName": "React"
     },
     {
+      "matchPackageNames": ["webpack"],
+      "matchPackagePrefixes": ["webpack-"],
+      "groupName": "Webpack"
+    },
+    {
       "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions"
     }
