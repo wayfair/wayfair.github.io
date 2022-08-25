@@ -1,6 +1,6 @@
 ---
 title: Managing Project Dependencies
-featured: ./images/featured/managing-dependencies.png # NOTE: PNG image still needs to be created
+featured: ./images/featured/managing-dependencies.png
 ---
 
 ## Table of Contents
