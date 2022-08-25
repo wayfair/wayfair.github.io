@@ -114,7 +114,6 @@ While Renovate offers numerous customizations, a few key options provide immedia
   ]
 ```
 
-
 - [Batch Updates](https://docs.renovatebot.com/getting-started/use-cases/#batched-updates):
 
 ```json
