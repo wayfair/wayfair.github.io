@@ -40,7 +40,7 @@ If you're about to begin a brand-new open source project, good news! Wayfair's O
 
 If you're the maintainer of an existing open source project, fret not! Adding Renovate is incredibly simple, especially if you don't plan to use its advanced features and customizations right away. In fact, if you're okay with the [base configuration](https://docs.renovatebot.com/presets-config/) and [default rules](https://docs.renovatebot.com/presets-default/), it's as simple as [adding one line](https://docs.renovatebot.com/config-presets/#how-to-use-preset-configs) to a JSON file:
 
-```json
+```js
 // renovate.json
 
 {
@@ -97,7 +97,7 @@ While Renovate offers numerous customizations, a few key options provide immedia
 
 - [Scheduling](https://docs.renovatebot.com/key-concepts/scheduling/):
 
-```json
+```js
   "schedule": [
     "before 3am every weekday" // Runs daily before 3:00 AM UTC
   ]
@@ -105,7 +105,7 @@ While Renovate offers numerous customizations, a few key options provide immedia
 
 - [Package Managers](https://docs.renovatebot.com/modules/manager/):
 
-```json
+```js
   "enabledManagers": [ // Manages packages for Docker, GitHub, Node
     "dockerfile",
     "docker-compose",
@@ -116,7 +116,7 @@ While Renovate offers numerous customizations, a few key options provide immedia
 
 - [Batch Updates](https://docs.renovatebot.com/getting-started/use-cases/#batched-updates):
 
-```json
+```js
   "packageRules": [ // Group packages for Gatsby, React, Docker, GitHub
     {
       "matchPackageNames": ["gatsby"],
@@ -141,7 +141,7 @@ While Renovate offers numerous customizations, a few key options provide immedia
 
 - [Automerging](https://docs.renovatebot.com/key-concepts/automerge/):
 
-```json
+```js
   "packageRules": [ // Only automerge minor package updates
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
@@ -153,7 +153,7 @@ While Renovate offers numerous customizations, a few key options provide immedia
 
 - [Config Presets](https://docs.renovatebot.com/getting-started/use-cases/#configuration-presets):
 
-```json
+```js
   "extends": [ // Extends base config, enables dashboard, rebases PRs
     "config:base",
     ":dependencyDashboard",
