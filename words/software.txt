@@ -10,3 +10,6 @@ reviewership
 automerge
 automerging
 shunsuke
+gomod
+pyenv
+terragrunt
