@@ -48,7 +48,7 @@ If you're the maintainer of an existing open source project, fret not! Adding Re
 }
 ```
 
-As you begin to learn more about Renovate's advanced capabilities, as well as gain an understanding of your project's language and tool-specific package management needs, you can always update your JSON configuration to accomodate your evolving needs! Better yet, there are [plenty](https://github.com/seek-oss/renovate-config-seek/blob/master/package.json) [of](https://github.com/teppeis/renovate-config/blob/main/renovate.json) [fantastic](https://github.com/teppeis/renovate-config/blob/main/default.json) [examples](https://github.com/cybozu/renovate-config/blob/master/renovate.json) of Renovate configuration files out there in the wild.
+As you begin to learn more about Renovate's advanced capabilities, as well as gain an understanding of your project's language and tool-specific package management needs, you can always update your JSON configuration to accommodate your evolving needs! Better yet, there are [plenty](https://github.com/seek-oss/renovate-config-seek/blob/master/package.json) [of](https://github.com/teppeis/renovate-config/blob/main/renovate.json) [fantastic](https://github.com/teppeis/renovate-config/blob/main/default.json) [examples](https://github.com/cybozu/renovate-config/blob/master/renovate.json) of Renovate configuration files out there in the wild.
 
 Here are some common package managers Wayfair OSPO recommends exploring:
 
@@ -175,7 +175,7 @@ Better yet, by enabling Renovate as a GitHub-hosted app, you'll be able to view 
 https://app.renovatebot.com/dashboard#github/<ORG_NAME>/<REPO_NAME>
 ```
 
-> 💡 If you've already committed a valid `renovate.json` configuration file to your project, and still don't see a Dependency Dashboard issue automatically filed / updated according to your specified schedule, make sure the [Renovate App](https://github.com/apps/renovate) and `renovate` bot user have been granted [access to your repository](https://github.com/apps/renovate/installations/new). If you are the administrator of a GitHub organization, you can optionally [enable the Renovate App](https://docs.renovatebot.com/getting-started/installing-onboarding/#hosted-githubcom-app) for all repositories, allowing for more seamles monitoring of Renovate installations across your org.
+> 💡 If you've already committed a valid `renovate.json` configuration file to your project, and still don't see a Dependency Dashboard issue automatically filed / updated according to your specified schedule, make sure the [Renovate App](https://github.com/apps/renovate) and `renovate` bot user have been granted [access to your repository](https://github.com/apps/renovate/installations/new). If you are the administrator of a GitHub organization, you can optionally [enable the Renovate App](https://docs.renovatebot.com/getting-started/installing-onboarding/#hosted-githubcom-app) for all repositories, allowing for more seamless monitoring of Renovate installations across your org.
 
 ## Troubleshooting Renovate
 
