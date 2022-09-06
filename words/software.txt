@@ -7,3 +7,9 @@ dogfooding
 Kube
 CNCF
 reviewership
+automerge
+automerging
+shunsuke
+gomod
+pyenv
+terragrunt

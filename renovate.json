@@ -19,7 +19,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "groupName": "Minor Updates",
+      "groupName": "Minor Packages",
       "automerge": true
     },
     {
@@ -31,6 +31,11 @@
       "matchPackageNames": ["react"],
       "matchPackagePrefixes": ["react-"],
       "groupName": "React"
+    },
+    {
+      "matchPackageNames": ["webpack"],
+      "matchPackagePrefixes": ["webpack-"],
+      "groupName": "Webpack"
     },
     {
       "matchManagers": ["github-actions"],
