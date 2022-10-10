@@ -35,7 +35,8 @@
     {
       "matchPackageNames": ["webpack"],
       "matchPackagePrefixes": ["webpack-"],
-      "groupName": "Webpack"
+      "groupName": "Webpack",
+      "allowedVersions": "5.72.x"
     },
     {
       "matchManagers": ["github-actions"],
