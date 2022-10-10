@@ -38,7 +38,7 @@
     "react-icons": "4.4.0",
     "sass": "1.49.9",
     "uuid": "8.3.2",
-    "webpack": "5.72.1"
+    "webpack": "5.73.0"
   },
   "devDependencies": {
     "gatsby-cli": "4.21.0",
