@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: 🔤 check spelling # New dictionary words can be added to docs/software.txt and docs/wayfair.txt
-        uses: streetsidesoftware/cspell-action@v2.7.0
+        uses: streetsidesoftware/cspell-action@v2.11.0
         with:
           files: "src/docs/**/*.md"
           incremental_files_only: true
