@@ -95,22 +95,19 @@ If you are unable to leverage GitHub hosting, or prefer to self-host your instan
 
 While Renovate offers numerous customizations, a few key options provide immediate value to project maintainers without requiring too much tweaking:
 
-- [Scheduling](https://docs.renovatebot.com/key-concepts/scheduling/):
+- [Scheduling Presets](https://docs.renovatebot.com/presets-schedule/):
+
+```js
+  "extends": [
+    "schedule:earlyMondays"
+  ]
+```
+
+- [Setting more granular Scheduling](https://docs.renovatebot.com/key-concepts/scheduling/):
 
 ```js
   "schedule": [
     "before 3am every weekday" // Runs daily before 3:00 AM UTC
-  ]
-```
-
-- [Package Managers](https://docs.renovatebot.com/modules/manager/):
-
-```js
-  "enabledManagers": [ // Manages packages for Docker, GitHub, Node
-    "dockerfile",
-    "docker-compose",
-    "github-actions",
-    "npm"
   ]
 ```
 
@@ -146,6 +143,7 @@ While Renovate offers numerous customizations, a few key options provide immedia
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "groupName": "Minor Packages",
+      "matchCurrentVersion": "!/^0/",  // exclude automerging dependencies which are pre-1.0.0
       "automerge": true
     },
   ]
@@ -154,9 +152,8 @@ While Renovate offers numerous customizations, a few key options provide immedia
 - [Config Presets](https://docs.renovatebot.com/getting-started/use-cases/#configuration-presets):
 
 ```js
-  "extends": [ // Extends base config, enables dashboard, rebases PRs
+  "extends": [ // Extends base config, rebases PRs
     "config:base",
-    ":dependencyDashboard",
     ":rebaseStalePrs"
   ]
 ```
