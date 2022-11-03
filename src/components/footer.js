@@ -50,7 +50,7 @@ const Footer = () => (
             Terms and Conditions
           </a>
           &nbsp;|&nbsp;
-          <a href="https://www.aboutwayfair.com/about-wayfair-cookies">
+          <a href="https://terms.wayfair.io/en-US?#privacy">
             Privacy Policy
           </a>
         </Col>
