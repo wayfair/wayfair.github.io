@@ -93,18 +93,11 @@ A company as large as ours relies on a lot of open source software, thus, Wayfai
 
 A good example of this in action is our work with LinkedIn’s [Brooklin](https://github.com/wayfair-contribs/brooklin). Our Big Data and Messaging team relies on this software for streaming data between various heterogeneous source and destination systems, as opposed to having built a customized, bespoke tool. Our contributions take place through our [Wayfair Contribs](https://github.com/wayfair-contribs) organization, where we fork the projects we’re using and contributing back to. In this model, we add a Wayfairian’s personal GitHub account to the forked project, giving them the ability to submit PRs from themselves as an individual, all while being recognized as employed by Wayfair, who are enabling the open source contribution through this workflow.
 
-The steps to setting up a forked repository of a project you’re contributing to at Wayfair are:
+We've created a way for Wayfair technologists to follow our recommended fork and pull workflows by building self-service tooling that can add GitHub accounts to our various organizations, as well as fork repositories we want to contribute to. If you're a member of Wayfair Technology and not already a member of our public GitHub.com organizations, follow the steps listed on our InfoHub internally, or via our GitHub Enterprise documentation, to request an invite. Once you've successfully joined `wayfair-contribs`, you'll be able to requests forks using an automated PR workflow on `ospo-automation`.
 
-- Submit your request for forking to OSPO (via JIRA, internally) with the following information:
-  - The name and URL of the project
-  - Your name, your Wayfair username, and your personal GitHub handle (with two-factor authentication enabled)
-  - The name, Wayfair username, and GitHub handle of any other collaborators within Wayfair
-  - Your manager’s OK, or their being tagged in the request
-- Once you’ve submitted the above, our user management automation workflow will map your Wayfair credentials to your GitHub information, allowing us to maintain our security protocols while your personal account is being used
-- We will fork the repository into `wayfair-contribs`, and give you and specified team members access to the repository
-- Within a business day, you’ll have the forked project at your disposal
+You’ll need your GitHub username, and the URL for the project you’d like to have forked. You should also ensure that the repository you're interested in contributing to is compliant with Wayfair's current list of allowed licenses. If you happen across a project you're eager to contribute to, but are unsure if it complies with our license policy, drop us a line in #open-source-forum on Slack (internal).
 
-_NOTE: While this is certainly more work than using your own namespace on GitHub, this allows us to give credit and keep track of what Wayfair contributors work on. We will create a faster workflow for this process in the near term._
+Once you’ve submitted the information above to complete your self-service request, our user management automation workflow will map your Wayfair credentials to your GitHub information, allowing us to maintain our security protocols while your personal account is being used. Once your fork has been created, you’ll want to push commits to the `wayfair-contribs` fork, then make a pull request back to the original repository to contribute your changes.
 
 It will be up to you and your team to plan for the frequency of contributions and how that should look day-to-day in Wayfair land. This means managing upstream merges and how your team is dividing the work, alongside the communication expectations certain projects may have.
 
