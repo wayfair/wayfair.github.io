@@ -6,6 +6,7 @@ const languages = [
   "JavaScript",
   "Markdown",
   "TypeScript",
+  "Swift",
 ]
 
 const [
@@ -16,9 +17,17 @@ const [
   javascript,
   markdown,
   typescript,
+  swift
 ] = languages
 
 const projects = [
+  {
+    name: "Backstage (Spotify)",
+    language: typescript,
+    description:
+      "Backstage is an open platform for building developer portals. Powered by a centralized software catalog, Backstage restores order to your microservices and infrastructure and enables your product teams to ship high-quality code quickly — without compromising autonomy.",
+    href: "https://github.com/wayfair-contribs/backstage",
+  },
   {
     name: "Brikkit-Android",
     language: kotlin,
@@ -27,11 +36,17 @@ const projects = [
     href: "https://github.com/wayfair/brickkit-android",
   },
   {
-    name: "Git-Parse",
-    language: javascript,
+    name: "Brooklin (LinkedIn)",
+    language: java,
+    description: "Brooklin is a distributed system intended for streaming data between various heterogeneous source and destination systems with high reliability and throughput at scale. Designed for multitenancy, Brooklin can simultaneously power hundreds of data pipelines across different systems and can easily be extended to support new sources and destinations.",
+    href: "https://github.com/wayfair-contribs/brooklin",
+  },
+  {
+    name: "Columbo", 
+    language: python,
     description:
-      "Javascript library which generates an array of javascript objects representing the current branch of a local git repository's commit history",
-    href: "https://github.com/wayfair/git-parse",
+      "Specify a dynamic set of questions to ask a user and get their answers. Columbo's feature set allows a program to ask multiple types of questions, validate the response provided by the user, use answers from earlier questions, and accept answers from the command line in addition to prompting the user. ",
+    href: "https://github.com/wayfair-incubator/columbo",
   },
   {
     name: "DociQL",
@@ -55,11 +70,11 @@ const projects = [
     href: "https://github.com/wayfair-incubator/gbq",
   },
   {
-    name: "Columbo",
-    language: python,
+    name: "Git-Parse",
+    language: javascript,
     description:
-      "Specify a dynamic set of questions to ask a user and get their answers. Columbo's feature set allows a program to ask multiple types of questions, validate the response provided by the user, use answers from earlier questions, and accept answers from the command line in addition to prompting the user. ",
-    href: "https://github.com/wayfair-incubator/columbo",
+      "Javascript library which generates an array of javascript objects representing the current branch of a local git repository's commit history",
+    href: "https://github.com/wayfair/git-parse",
   },
   {
     name: "OSS-Template",
@@ -83,17 +98,11 @@ const projects = [
     href: "https://github.com/tremor-rs",
   },
   {
-    name: "Backstage (Spotify)",
-    language: typescript,
+    name: "VSM for iOS",
+    language: swift,
     description:
-      "Backstage is an open platform for building developer portals. Powered by a centralized software catalog, Backstage restores order to your microservices and infrastructure and enables your product teams to ship high-quality code quickly — without compromising autonomy.",
-    href: "https://github.com/wayfair-contribs/backstage",
-  },
-  {
-    name: "Brooklin (LinkedIn)",
-    language: java,
-    description: "Brooklin is a distributed system intended for streaming data between various heterogeneous source and destination systems with high reliability and throughput at scale. Designed for multitenancy, Brooklin can simultaneously power hundreds of data pipelines across different systems and can easily be extended to support new sources and destinations.",
-    href: "https://github.com/wayfair-contribs/brooklin",
+      "VSM is a reactive architecture for iOS that is unidirectional, highly type-safe, behavior-driven, and clean.",
+    href: "https://github.com/wayfair/vsm-ios",
   },
 ]
 
