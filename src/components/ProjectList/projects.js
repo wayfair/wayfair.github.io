@@ -6,6 +6,7 @@ const languages = [
   "JavaScript",
   "Markdown",
   "TypeScript",
+  "Swift",
 ]
 
 const [
@@ -16,6 +17,7 @@ const [
   javascript,
   markdown,
   typescript,
+  swift
 ] = languages
 
 const projects = [
