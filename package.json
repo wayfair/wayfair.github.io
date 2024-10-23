@@ -5,8 +5,8 @@
   "version": "0.0.1",
   "author": "Gary White Jr. <gwhite@wayfair.com>",
   "dependencies": {
-    "@babel/core": "7.19.3",
-    "bootstrap": "5.2.2",
+    "@babel/core": "7.25.9",
+    "bootstrap": "5.3.3",
     "gatsby": "4.24.4",
     "gatsby-plugin-gatsby-cloud": "4.24.0",
     "gatsby-plugin-gdpr-cookies": "2.0.9",
@@ -36,14 +36,14 @@
     "react-dom": "18.2.0",
     "react-helmet": "6.1.0",
     "react-icons": "4.4.0",
-    "sass": "1.55.0",
-    "uuid": "9.0.0",
+    "sass": "1.80.4",
+    "uuid": "9.0.1",
     "webpack": "5.72.1"
   },
   "devDependencies": {
     "gatsby-cli": "4.24.0",
     "gh-pages": "4.0.0",
-    "prettier": "2.7.1"
+    "prettier": "2.8.8"
   },
   "keywords": [
     "gatsby"
