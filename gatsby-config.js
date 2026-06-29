@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Wayfair Open Source`,
-    description: `Home of the Open Source Program Office and Wayfair specific documenting for working with OSS`,
+    description: `Home of the Open Source Program Office and Wayfair specific documentation for working with OSS`,
     author: `opensource@wayfair.com`,
     siteUrl: `https://wayfair.github.io`,
     keywords: [`opensource`, `wayfair`, `Wayfair`, `OSS`, `OSPO`],

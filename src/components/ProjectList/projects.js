@@ -52,7 +52,7 @@ const projects = [
     name: "DociQL",
     language: javascript,
     description:
-      'DociQL generates beautiful static HTML5 documentation from a GraphQL endpoint using the introspection query. The goal of DociQL is help you "save time and look good" by providing an extensible platform for auto generating your API documentation. The default layout is a three column single page, similar to those employed by Stripe and Intercom.',
+      'DociQL generates beautiful static HTML5 documentation from a GraphQL endpoint using the introspection query. The goal of DociQL is to help you "save time and look good" by providing an extensible platform for auto generating your API documentation. The default layout is a three column single page, similar to those employed by Stripe and Intercom.',
     href: "https://github.com/wayfair/dociql",
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     name: "GBQ",
     language: python,
     description:
-      "Python wrapper for interacting Google BigQuery. This package provides an interface by wrapping Google's low level library. It exposes options to provide input as json objects which can be used for various CI/CD tools.",
+      "Python wrapper for interacting with Google BigQuery. This package provides an interface by wrapping Google's low level library. It exposes options to provide input as json objects which can be used for various CI/CD tools.",
     href: "https://github.com/wayfair-incubator/gbq",
   },
   {
