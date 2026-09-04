@@ -7,9 +7,9 @@ jobs:
   spellcheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
       - name: 🔤 check spelling # New dictionary words can be added to docs/software.txt and docs/wayfair.txt
-        uses: streetsidesoftware/cspell-action@v2.11.0
+        uses: streetsidesoftware/cspell-action@v9.1.0
         with:
           files: "src/docs/**/*.md"
           incremental_files_only: true
