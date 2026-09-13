@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "author": "Gary White Jr. <gwhite@wayfair.com>",
   "dependencies": {
-    "@babel/core": "7.19.3",
+    "@babel/core": "7.29.6",
     "bootstrap": "5.2.2",
     "gatsby": "4.24.4",
     "gatsby-plugin-gatsby-cloud": "4.24.0",
